@@ -1,0 +1,193 @@
+
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 340px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .subscribe-us-area .subscribe .subscribe-title,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
+    .site-main .services-area,
+    .site-main .subscribe-us-area .subscribe
+    {
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 15rem    !important;
+    }
+
+    .site-main > .services-area .services{
+        width: 13rem;
+    }
+    .navbar-brand img {
+        width: 12rem;
+    }
+    .header_area .main-menu .navbar .navbar-brand{
+    padding: 0 0 0 0;
+    }
+    .responsive  {
+        width: 100%;
+        height: auto;
+    }
+    .title-text {
+        color: black;
+        animation: anim 5s ease 1s 1 forwards;
+    }
+    @keyframes anim {
+        50% {
+            color: cornflowerblue;
+        }
+        100% {
+            color: darkslategrey;
+        }
+}
+    .site-main .site-banner .banner-image > img{
+    padding: 1rem 0;
+    }
+    .site-main > .services-area .services{
+        background: rgba(248, 252, 253, 0.973);
+        box-shadow: var(--box-shadow);
+        margin-bottom: 1em;
+    }
+    .site-main .project-area .button-group button{
+        font: normal 500 16px/50px var(--roboto);
+    }
+}
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 792px){
+    .site-main .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .brand-area .experience-area .years-area{
+        padding-left: 1%;
+        width: 49%;
+    }
+
+    .site-main .brand-area .experience-area .bg-panel{
+        margin-left: 30%;
+        width: 80%;   
+    }
+
+    .site-main .brand-area .experience-area .call-area{
+        padding-left: 3%;
+    }
+
+    .site-main .project-area .button-group button{
+        font: normal 500 18px/40px ;
+    }
+
+    .site-main .about-area .about-title p{
+        padding: 0%;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 20rem;
+        margin: 5%;
+    }
+    .header_area .main-menu .navbar .navbar-brand{
+    padding: 0 0 0 0;
+}
+    .navbar-brand img {
+        width: 16rem;
+    }
+    .title-text {
+        color: black;
+        animation: anim 4s ease 1s 1 forwards ;
+    }
+    @keyframes anim {
+        50% {
+            color: teal;
+        }
+        100% {
+            
+            color: cornflowerblue;
+    }
+}
+    .site-main .site-banner .banner-image > img{
+        padding: 1.5rem 0;
+    }
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .col-xl-6 col-lg-12 .col-md-12 {
+        width: auto;
+    }
+    .col-lg-4.col-md-6.col-sm-6 {
+        width: auto;
+    } 
+    .col-xl-6.col-lg-12.col-md-12 {
+        position: relative;
+        width: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .site-main .brand-area .first-row .col-lg-4{
+        margin-right: 7px;
+    }
+    .col-lg-4.col-md-6.col-sm-6 {
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .col, .col-1, .col-10, .col-11, .col-12,
+    .col-2, .col-3, .col-4, .col-5, .col-6,
+    .col-7, .col-8, .col-9, .col-auto, .col-lg,
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12,
+    .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5,
+    .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9,
+    .col-lg-auto, .col-md, .col-md-1, .col-md-10,
+    .col-md-11, .col-md-12, .col-md-2, .col-md-3,
+    .col-md-4, .col-md-5, .col-md-6, .col-md-7,
+    .col-md-8, .col-md-9, .col-md-auto, .col-sm,
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12,
+    .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
+     .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto { 
+        margin: auto !important;
+    }
+    .site-main .brand-area .first-row .col-lg-4 > .single-brand{
+        width: 167px;
+    }
+    .site-main > .services-area .services{
+        background: rgba(248, 252, 253, 0.973);
+        box-shadow: var(--box-shadow);
+        margin-bottom: 1em;
+    }
+    .site-main .project-area .button-group button{
+        font: normal 500 16px/50px var(--roboto);
+    }
+
+}
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px){
+    .header_area .main-menu .navbar{
+        padding: 1rem;
+    }
+
+    
+
+    .site-main .brand-area,
+    .site-main .services-area .services-title,
+    .site-main .about-area{
+        padding: 3% 4%;
+    }
+    
+
+}

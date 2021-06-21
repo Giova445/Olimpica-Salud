@@ -49,8 +49,23 @@
 /* Banner Area */ 
 
 .site-main .site-banner {
-    background: url(../img/mansion\ interna\ 1\ \(2\).jpg) no-repeat 50% 50%;
-    background-attachment: fixed;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.responsive1 {
+    width: 60%;
 }
 
 .site-main .site-banner .site-title h3{
@@ -78,7 +93,6 @@
 
 .site-main .site-banner .banner-image > img{
     padding: 14rem 0;
-    width: 90rem;
 }
 .title-text {
         color: black;
@@ -86,11 +100,11 @@
     }
     @keyframes anim {
   50% {
-    color: teal;
+    color: rgb(241, 241, 241);
   }
   100% {
     
-    color: cornflowerblue;
+    color: rgb(215, 217, 221);
   }
 }
 .banner-image {
@@ -229,8 +243,8 @@
 .container {
     padding-left: 0%;
     padding-right: 0%;
+ 
 }
-
 
 /* End Services Area */ 
 
